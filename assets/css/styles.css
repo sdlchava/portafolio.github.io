@@ -954,9 +954,9 @@ img {
         display: flex;
         column-gap: 1rem;
     }
-    .nav__menu {
+    /* .nav__menu {
         margin-left: auto;
-    } 
+    }  */
     .change-theme{
         margin: 0;
     }
