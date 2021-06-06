@@ -195,7 +195,7 @@ img {
         background-color: var(--body-color);
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0,0,0, .15);
-        border-radius: 1.5rem 1.5rem 0 0;
+        border-radius: 0 0 1.5rem 1.5rem;
         transition: .4s;
     }
 }
@@ -952,11 +952,14 @@ img {
     }
     .nav__list {
         display: flex;
-        column-gap: 1rem;
+        column-gap: 0;
     }
-    /* .nav__menu {
+    .nav__item {
+        margin-right: 1.25rem;
+    }
+    .nav__menu {
         margin-left: auto;
-    }  */
+    } 
     .change-theme{
         margin: 0;
     }
